@@ -11,3 +11,15 @@ body {
 #IG {
     background-color: rgb(209, 108, 162);
 }
+
+main { border: dimgrey 5px inset;
+    border-radius: 7px;
+    width: fit-content;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: rgb(248, 230, 222);
+}
+u {color: mediumblue;
+cursor: pointer;
+}
