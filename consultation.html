@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="constultation.css" type="text/css">
+</head>
+<body>
+    <h1>Schedule a constultation today!</h1>
+    <form>
+        <label for="name">Full name:</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+        <label for="phone">Phone number:</label>
+        <input type="text" name="phone" id="phone" pattern="[0,9]{9,11}">
+        <br>
+        <br>
+        <label for="service">What service are you needing?</label>
+        <select id="service" name="service">
+            <option value="Walk">Dog walk</option>
+            <option value="Check-in">Check in vist</option>
+            <option value="Sitting">Pet sitting</option>
+        </select>
+        <br>
+        <br>
+        <p>What kind of pets do you have?</p>
+        <label for="dog">Dog</label>
+        <input type="checkbox" name="pet" id="dog" value="dog">
+        <label for="cat">Cat</label>
+        <input type="checkbox" name="pet" id="cat" value="cat">
+        <br>
+        <br>
+        <label for="dates">What day(s) will you need services?</label>
+        <textarea id="dates" name="dates" rows="3" cols="30"></textarea>
+        <br>
+        <br>
+        <label for="comments">Any questions or comments?</label>
+        <textarea id="comments" name="comments" rows="3" cols="30"></textarea>
+        <br>
+        <br>
+        <input type="submit">
+        
+
+    </form>
+    <footer>
+        <hr>
+        <img src="dog-logo.png" width="100px" height="80px">
+        <p>
+            Copyright© 2021 Happy Paws. All Rights reserved
+        </p>
+    </footer>
+</body>
+</html>
