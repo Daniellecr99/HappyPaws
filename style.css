@@ -10,7 +10,11 @@ div {
     margin: 0 auto;
 }
 
-.carousel img {
-    width: 500px;
-    height: 300px;
+#doggy {
+border: rgb(114, 104, 106) 15px double;
+}
+
+.end {
+    padding: 0;
+    margin: 0;
 }
