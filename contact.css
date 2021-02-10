@@ -1,0 +1,13 @@
+body {
+    background-image: url(Sunset.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+#FB {
+   background-color: rgb(84, 86, 189);
+}
+
+#IG {
+    background-color: rgb(209, 108, 162);
+}
