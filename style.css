@@ -18,3 +18,7 @@ border: rgb(114, 104, 106) 15px double;
     padding: 0;
     margin: 0;
 }
+
+footer {
+    text-align: center;
+}
