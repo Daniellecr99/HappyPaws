@@ -12,6 +12,8 @@ div {
 
 #doggy {
 border: rgb(114, 104, 106) 15px double;
+margin-left: 30px;
+text-align: center;
 }
 
 .end {
@@ -26,4 +28,20 @@ footer {
 
 #gif {
     opacity: .90;
+}
+
+p {
+    font-family:serif;
+}
+
+h1, h5 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+h5 { font-size: 30px;}
+
+nav {
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Cormorant', serif;
+font-weight: bolder;
 }

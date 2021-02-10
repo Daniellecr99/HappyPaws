@@ -23,3 +23,11 @@ main { border: dimgrey 5px inset;
 u {color: mediumblue;
 cursor: pointer;
 }
+
+p {
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Cormorant', serif;
+    font-weight: bolder;
+}
+
+h1, h4 { font-family: 'Abril Fatface', cursive;}
