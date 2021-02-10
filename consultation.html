@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="constultation.css" type="text/css">
 </head>
 <body>
+    <a href="index.html"><img src="dog-logo.png" width="180px" height="150px"></a>
     <h1>Schedule a constultation today!</h1>
     <form>
         <label for="name">Full name:</label>
-        <input type="text" name="name" id="name">
+        <input type="text" name="name" id="name" required>
         <br>
         <br>
         <label for="email">Email</label>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" required>
         <br>
         <br>
         <label for="phone">Phone number:</label>
-        <input type="text" name="phone" id="phone" pattern="[0,9]{9,11}">
+        <input type="text" name="phone" id="phone" pattern="[0,9]{9,11}" required>
         <br>
         <br>
         <label for="service">What service are you needing?</label>
@@ -37,20 +38,22 @@
         <br>
         <br>
         <label for="dates">What day(s) will you need services?</label>
-        <textarea id="dates" name="dates" rows="3" cols="30"></textarea>
+        <br>
+        <textarea id="dates" name="dates" rows="3" cols="30" required></textarea>
         <br>
         <br>
         <label for="comments">Any questions or comments?</label>
+        <br>
         <textarea id="comments" name="comments" rows="3" cols="30"></textarea>
         <br>
         <br>
         <input type="submit">
-        
+        <br>
+        <br>
 
     </form>
     <footer>
         <hr>
-        <img src="dog-logo.png" width="100px" height="80px">
         <p>
             Copyright© 2021 Happy Paws. All Rights reserved
         </p>
